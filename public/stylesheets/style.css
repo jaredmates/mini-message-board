@@ -1,6 +1,6 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -10,7 +10,17 @@ a {
 .message-container {
   margin: 1rem;
   padding: 0.5rem;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  border-radius: 8px;
+}
+
+.message {
+  font-size: 1.15rem;
+}
+
+.name {
+  font-weight: bold;
 }
 
 @media (min-width: 800px) {

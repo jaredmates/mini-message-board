@@ -10,7 +10,10 @@
     <span><a href="/new">New Message</a></span>
     <% messages.forEach(message => { %>
     <div class="message-container">
-      <p><%= `${message.user}: ${message.text}` %></p>
+      <p class="message">
+        <span class="name"><%=`${message.user}: `%></span> <%=
+        `${message.text}`%>
+      </p>
       <p><%= `${message.added}` %></p>
     </div>
 
